@@ -3,7 +3,7 @@
       <h3>Todos</h3>
       <div class="todos">
           <div v-for="todo in allTodos" :key="todo.id" class="todo">
-            {{todo.title}}
+           <p>{{todo.title}}</p> 
             <i @click="deleteTodo(todo.id)" class="fas fa-trash-alt"></i>
           </div>
       </div>
@@ -45,5 +45,8 @@ i {
     right: 10px;
     color: #fff;
     cursor: pointer;
+}
+p {
+    color: #fff;
 }
 </style> 
