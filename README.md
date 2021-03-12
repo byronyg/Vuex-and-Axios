@@ -1,4 +1,6 @@
-# vuex-todo-travery
+# VueX project
+
+# This project employs the use of data from JSON Placeholder todo apis. 
 
 ## Project setup
 ```
